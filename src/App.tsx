@@ -4,13 +4,13 @@ import { LoginPage } from "./pages/LoginPage/LoginPage";
 import IMBPlex from "./fonts/IBMPlexSans-Regular.ttf";
 const Global = createGlobalStyle`
 @font-face {
-  font-family: 'IBM Plex Sans';
-  src: url(${IMBPlex}) format('ttf');
+  font-family: 'IBMPlexSans';
+  src: local("IBMPlexSans"), url(${IMBPlex}) format('truetype');
 }
 html, body {
   margin: 0;
   padding: 0;
-  font-family: "IBM Plex Sans";
+  font-family: "IBMPlexSans";
 }
 `;
 function App() {
