@@ -8,24 +8,26 @@ const LoginPageWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 90rem;
+  /* max-width: 90rem; 1440px*/
+  width: 100%;
   height: 64rem;
-  background-color: #f9f9fa; ;
+  background-color: #f9f9fa;
+  position: sticky;
 `;
 
 export const LoginPage = () => {
   return (
     <LoginPageWrapper>
-      <LoginPageStudyBackground
+      {/* <LoginPageStudyBackground
         left="-90px"
         top="16px"
-      ></LoginPageStudyBackground>
+      ></LoginPageStudyBackground> text as a background has some difficulties with Z-index and Y letter */}
       <StudyBar></StudyBar>
       <LoginForm></LoginForm>
-      <LoginPageStudyBackground
+      {/* <LoginPageStudyBackground
         left="140px"
         top="432px"
-      ></LoginPageStudyBackground>
+      ></LoginPageStudyBackground> */}
     </LoginPageWrapper>
   );
 };

@@ -1,3 +1,4 @@
+import { relative } from "path";
 import React from "react";
 import styled from "styled-components";
 
@@ -12,7 +13,7 @@ const StudyBackground = styled.div<StudyProps>`
   height: 35.5rem;
   left: ${(props) => props.left};
   top: ${(props) => props.top};
-
+  z-index: -1;
   font-weight: 700;
   font-size: 27.375rem;
   line-height: 35.5rem;

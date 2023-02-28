@@ -2,6 +2,7 @@ import React from "react";
 import { createGlobalStyle } from "styled-components";
 import { LoginPage } from "./pages/LoginPage/LoginPage";
 import IMBPlex from "./fonts/IBMPlexSans-Regular.ttf";
+import { StudyMainPage } from "./pages/StudyMainPage/StudyMainPage";
 const Global = createGlobalStyle`
 @font-face {
   font-family: 'IBMPlexSans';
@@ -17,7 +18,8 @@ function App() {
   return (
     <div className="App">
       <Global></Global>
-      <LoginPage></LoginPage>
+      {/* <LoginPage></LoginPage> */}
+      <StudyMainPage></StudyMainPage>
     </div>
   );
 }
