@@ -9,7 +9,6 @@ const LoginPageWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   /* max-width: 90rem; 1440px*/
-  width: 100%;
   height: 64rem;
   background-color: #f9f9fa;
   position: sticky;

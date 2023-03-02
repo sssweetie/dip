@@ -5,9 +5,11 @@ import { StudyMainPage_Navigation } from "./StudyMainPage_Navigation";
 import { StudyMainPage_Profile } from "./StudyMainPage_Profile";
 const Aside = styled.aside`
   width: 16.25rem;
+  box-sizing: border-box;
   padding: 20px;
   padding-top: 40px;
   height: 36.75rem;
+  background-color: #ffffff;
 `;
 export const StudyMainPage = () => {
   return (
